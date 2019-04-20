@@ -35,6 +35,10 @@ if [ ! -d "$ZSH_PLUGINS_DIR/zsh-syntax-highlighting" ]; then
   echo "-----> Installing zsh plugin 'zsh-syntax-highlighting'..."
   git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 fi
+if [ ! -d "$ZSH_PLUGINS_DIR/zsh-autosuggestions" ]; then
+  echo "-----> Installing zsh plugin 'zsh-autosuggestions'..."
+  git clone git://github.com/zsh-users/zsh-autosuggestions.git
+fi
 cd "$CURRENT_DIR"
 
 # setopt nocasematch
