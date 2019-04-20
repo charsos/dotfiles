@@ -67,4 +67,3 @@ cd "$CURRENT_DIR"
 zsh ~/.zshrc
 
 echo "👌  Carry on with git setup!"
-.
